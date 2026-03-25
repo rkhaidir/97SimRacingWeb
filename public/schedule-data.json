@@ -1,0 +1,134 @@
+{
+  "defaultYear": "2026",
+  "years": ["2026", "2025"],
+  "seasons": {
+    "2026": {
+      "events": [
+        {
+          "title": "Weekly Race #01",
+          "type": "weekly-race",
+          "month": "Januari",
+          "day": "08 Januari 2026",
+          "time": "20:00 WIB",
+          "track": "Monza",
+          "platform": "Assetto Corsa Competizione",
+          "server": "ACC Weekly Server",
+          "format": "Practice + Qualifying + Sprint",
+          "description": "Race mingguan komunitas untuk menjaga pace, konsistensi, dan chemistry antar driver."
+        },
+        {
+          "title": "Weekly Race #02",
+          "type": "weekly-race",
+          "month": "Januari",
+          "day": "15 Januari 2026",
+          "time": "20:00 WIB",
+          "track": "Barcelona",
+          "platform": "Assetto Corsa Competizione",
+          "server": "ACC Weekly Server",
+          "format": "Practice + Qualifying + Sprint",
+          "description": "Sesi weekly race dengan fokus adaptasi lintasan teknikal dan manajemen ban."
+        },
+        {
+          "title": "Community Practice Night",
+          "type": "practice-session",
+          "month": "Februari",
+          "day": "06 Februari 2026",
+          "time": "20:30 WIB",
+          "track": "Spa-Francorchamps",
+          "platform": "Assetto Corsa Competizione",
+          "server": "ACC Practice Server",
+          "format": "Open Practice + Setup Sharing",
+          "description": "Sesi latihan komunitas untuk track guide, setup sharing, dan simulasi race pace."
+        },
+        {
+          "title": "Weekly Race #03",
+          "type": "weekly-race",
+          "month": "Februari",
+          "day": "12 Februari 2026",
+          "time": "20:00 WIB",
+          "track": "Suzuka",
+          "platform": "Assetto Corsa Competizione",
+          "server": "ACC Weekly Server",
+          "format": "Practice + Qualifying + Sprint",
+          "description": "Weekly race dengan fokus flow lintasan cepat dan konsistensi sektor teknikal."
+        },
+        {
+          "title": "Endurance Preparation Session",
+          "type": "special-event",
+          "month": "Maret",
+          "day": "14 Maret 2026",
+          "time": "21:00 WIB",
+          "track": "Silverstone",
+          "platform": "Assetto Corsa Competizione",
+          "server": "ACC Endurance Server",
+          "format": "Long Run Simulation",
+          "description": "Special event persiapan menuju 1H Trophy untuk simulasi traffic, tire wear, dan race discipline."
+        },
+        {
+          "title": "Open Wheel Fun Race",
+          "type": "special-event",
+          "month": "April",
+          "day": "11 April 2026",
+          "time": "20:30 WIB",
+          "track": "Imola",
+          "platform": "Assetto Corsa",
+          "server": "AC Formula Server",
+          "format": "Qualifying + 2 Sprint Races",
+          "description": "Special event open wheel untuk membangun hype dan latihan menuju Open Wheel Trophy."
+        },
+        {
+          "title": "Weekly Race #04",
+          "type": "weekly-race",
+          "month": "April",
+          "day": "23 April 2026",
+          "time": "20:00 WIB",
+          "track": "Nürburgring",
+          "platform": "Assetto Corsa Competizione",
+          "server": "ACC Weekly Server",
+          "format": "Practice + Qualifying + Sprint",
+          "description": "Race mingguan dengan fokus konsistensi pada layout teknikal dan ritme lap panjang."
+        },
+        {
+          "title": "Community Anniversary Event",
+          "type": "special-event",
+          "month": "Mei",
+          "day": "09 Mei 2026",
+          "time": "20:00 WIB",
+          "track": "Bathurst",
+          "platform": "Assetto Corsa Competizione",
+          "server": "ACC Special Server",
+          "format": "Special Celebration Race",
+          "description": "Event spesial komunitas untuk merayakan milestone dan mempertemukan seluruh member dalam satu race night."
+        }
+      ]
+    },
+    "2025": {
+      "events": [
+        {
+          "title": "Weekly Race Legacy #01",
+          "type": "weekly-race",
+          "month": "Agustus",
+          "day": "07 Agustus 2025",
+          "time": "20:00 WIB",
+          "track": "Brands Hatch",
+          "platform": "Assetto Corsa Competizione",
+          "server": "ACC Legacy Server",
+          "format": "Sprint Race",
+          "description": "Salah satu weekly race awal komunitas dengan format sprint sederhana."
+        },
+        {
+          "title": "Community Gathering Race",
+          "type": "special-event",
+          "month": "September",
+          "day": "20 September 2025",
+          "time": "20:30 WIB",
+          "track": "Hungaroring",
+          "platform": "Assetto Corsa Competizione",
+          "server": "ACC Legacy Server",
+          "format": "Fun Race Night",
+          "description": "Special event untuk mempererat komunitas sekaligus menguji format event di musim awal."
+        }
+      ]
+    }
+  }
+}

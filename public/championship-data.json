@@ -1,0 +1,315 @@
+{
+  "defaultYear": "2026",
+  "years": ["2026", "2025", "2024"],
+  "seasons": {
+    "2026": {
+      "championships": [
+        {
+          "name": "1H Trophy 2026",
+          "color": "#52C852",
+          "category": "Endurance Championship",
+          "status": "Live Season",
+          "season": "Season 01",
+          "platform": "Assetto Corsa",
+          "format": "Endurance",
+          "classes": ["GT3", "GTC (992)", "GT4"],
+          "description": "Championship endurance multi-class yang berfokus pada konsistensi, strategy, tire management, dan traffic handling.",
+          "rounds": [
+            {
+              "round": "Round 1 - 2H of Sepang",
+              "track": "Sepang International Circuit, Malaysia",
+              "date": "17 April 2026",
+              "type": "Endurance",
+              "status": "Upcoming",
+              "server": "97 Assetto Corsa Server"
+            },
+            {
+              "round": "Round 2 - 100 Minutes of Hockenheimring",
+              "track": "Hockenheimring, Jerman",
+              "date": "22 Mei 2026",
+              "type": "Endurance",
+              "status": "Upcoming",
+              "server": "97 Assetto Corsa Server"
+            },
+            {
+              "round": "Round 3 - 2H of Silverstone",
+              "track": "Silverstone Circuit, Inggris Raya",
+              "date": "26 Juni 2026",
+              "type": "Endurance",
+              "status": "Upcoming",
+              "server": "97 Assetto Corsa Server"
+            },
+            {
+              "round": "Round 4 - 100 Minutes of VIR",
+              "track": "Virginia International Raceway, USA",
+              "date": "06 Agustus 2026",
+              "type": "Endurance",
+              "status": "Upcoming",
+              "server": "97 Assetto Corsa Server"
+            },
+            {
+              "round": "Round 5 - 300 KM of Suzuka",
+              "track": "Suzuka International Circuit, Jepang",
+              "date": "04 September 2026",
+              "type": "Endurance",
+              "status": "Upcoming",
+              "server": "97 Assetto Corsa Server"
+            }
+          ]
+        },
+        {
+          "name": "Open Wheel Trophy",
+          "color": "#FF0000",
+          "category": "Formula Championship",
+          "status": "Live Season",
+          "season": "Season 01",
+          "platform": "Assetto Corsa",
+          "format": "Sprint Formula Series",
+          "classes": ["Formula Region"],
+          "description": "Championship open wheel untuk driver yang menyukai mobil formula dengan karakter ringan, presisi braking, dan importance tinggi pada qualifying pace.",
+          "rounds": [
+            {
+              "round": "Round 1",
+              "track": "Okayama International Circuit, Okayama Prefecture",
+              "date": "02 Mei 2026",
+              "type": "Sprint",
+              "status": "Upcoming",
+              "server": "97 Assetto Corsa Server"
+            },
+            {
+              "round": "Round 2",
+              "track": "Fuji Speedway, Shizuoka Prefecture",
+              "date": "13 Juni 2026",
+              "type": "Sprint",
+              "status": "Completed",
+              "server": "97 Assetto Corsa Server"
+            },
+            {
+              "round": "Round 3",
+              "track": "Suzuka International Racing Course, Mie Prefecture",
+              "date": "18 Juli 2026",
+              "type": "Sprint",
+              "status": "Upcoming",
+              "server": "97 Assetto Corsa Server"
+            },
+            {
+              "round": "Round 4",
+              "track": "Sportland Sugo, Miyagi Prefecture",
+              "date": "29 Agustus 2026",
+              "type": "Sprint",
+              "status": "Upcoming",
+              "server": "97 Assetto Corsa Server"
+            },
+            {
+              "round": "Round 5",
+              "track": "Zhuzhou International Circuit, Hunan",
+              "date": "26 September 2026",
+              "type": "Sprint",
+              "status": "Upcoming",
+              "server": "97 Assetto Corsa Server"
+            },
+            {
+              "round": "Round 6",
+              "track": "Autopolis, Oita Prefecture",
+              "date": "17 Oktober 2026",
+              "type": "Sprint",
+              "status": "Upcoming",
+              "server": "97 Assetto Corsa Server"
+            }
+          ]
+        }
+      ]
+    },
+    "2025": {
+      "championships": [
+        {
+          "name": "1H Series 2025",
+          "color": "#52C852",
+          "category": "GT Championship",
+          "status": "Completed",
+          "season": "Season 02",
+          "platform": "Assetto Corsa",
+          "format": "Sprint Series",
+          "classes": ["GT3"],
+          "description": "Seri balapan musim kedua dengan format sprint menggunakan mobil GT3.",
+          "rounds": [
+            {
+              "round": "Round 1",
+              "track": "Red Bull Ring, Austria",
+              "date": "20 - 22 Februari 2025",
+              "type": "Sprint Race",
+              "status": "Completed",
+              "server": "97 Assetto Corsa Server"
+            },
+            {
+              "round": "Round 2",
+              "track": "Mugello International Autodrome, Italia",
+              "date": "20 - 22 Maret 2025",
+              "type": "Sprint Race",
+              "status": "Completed",
+              "server": "97 Assetto Corsa Server"
+            },
+            {
+              "round": "Round 3",
+              "track": "Donington Park Circuit, Inggris Raya",
+              "date": "01 - 03 Mei 2025",
+              "type": "Sprint Race",
+              "status": "Completed",
+              "server": "97 Assetto Corsa Server"
+            },
+            {
+              "round": "Round 4",
+              "track": "Road Atlanta, Amerika Serikat",
+              "date": "05 - 07 Juni 2025",
+              "type": "Sprint Race",
+              "status": "Completed",
+              "server": "97 Assetto Corsa Server"
+            },
+            {
+              "round": "Round 5",
+              "track": "Dubai Autodrome, Uni Emirate Arab",
+              "date": "10 - 11 Juli 2025",
+              "type": "Sprint Race",
+              "status": "Completed",
+              "server": "97 Assetto Corsa Server"
+            },
+            {
+              "round": "Round 6",
+              "track": "Sepang International Circuit, Malaysia",
+              "date": "21 - 23 Agustus 2025",
+              "type": "Sprint Race",
+              "status": "Completed",
+              "server": "97 Assetto Corsa Server"
+            }
+          ]
+        },
+        {
+          "name": "Open Wheel Series 2025",
+          "color": "#FF0000",
+          "category": "Formula Championship",
+          "status": "Completed",
+          "season": "Season 01",
+          "platform": "Assetto Corsa",
+          "format": "Sprint Series",
+          "classes": ["Indycar"],
+          "description": "Seri balapan musim pertama dengan tema Indycar dari Amerika Serikat.",
+          "rounds": [
+            {
+              "round": "Round 1",
+              "track": "Watkins Glen International, New York",
+              "date": "13 April 2025",
+              "type": "Sprint Race",
+              "status": "Completed",
+              "server": "97 Assetto Corsa Server"
+            },
+            {
+              "round": "Round 2",
+              "track": "Laguna Seca Raceway, California",
+              "date": "18 Mei 2025",
+              "type": "Sprint Race",
+              "status": "Completed",
+              "server": "97 Assetto Corsa Server"
+            },
+            {
+              "round": "Round 3",
+              "track": "Indianapolis Motor Speedway Road Course, Indianapolis",
+              "date": "22 Juni 2025",
+              "type": "Sprint Race",
+              "status": "Completed",
+              "server": "97 Assetto Corsa Server"
+            },
+            {
+              "round": "Round 4",
+              "track": "Indianapolis Motor Speedway Oval, Indianapolis",
+              "date": "04 Oktober 2025",
+              "type": "Sprint Race",
+              "status": "Completed",
+              "server": "97 Assetto Corsa Server"
+            },
+            {
+              "round": "Round 5",
+              "track": "Phoenix Raceway, Arizona",
+              "date": "18 Oktober 2025",
+              "type": "Sprint Race",
+              "status": "Completed",
+              "server": "97 Assetto Corsa Server"
+            },
+            {
+              "round": "Round 6",
+              "track": "Road America, Wisconsin",
+              "date": "08 November 2025",
+              "type": "Sprint Race",
+              "status": "Completed",
+              "server": "97 Assetto Corsa Server"
+            }
+          ]
+        }
+      ]
+    },
+    "2024": {
+      "championships": [
+        {
+          "name": "1H Series 2024",
+          "color": "#077aed",
+          "category": "GT Championship",
+          "status": "Completed",
+          "season": "Season 01",
+          "platform": "Assetto Corsa",
+          "format": "Sprint Series",
+          "classes": ["GT3"],
+          "description": "Seri balapan musim pertama dengan format sprint menggunakan mobil GT3.",
+          "rounds": [
+            {
+              "round": "Round 1",
+              "track": "Sydney Motorsport Park, Australia",
+              "date": "14 September 2024",
+              "type": "Sprint Race",
+              "status": "Completed",
+              "server": "97 Assetto Corsa Server"
+            },
+            {
+              "round": "Round 2",
+              "track": "Dubai Autodrome, Uni Emirate Arab",
+              "date": "28 September 2024",
+              "type": "Sprint Race",
+              "status": "Completed",
+              "server": "97 Assetto Corsa Server"
+            },
+            {
+              "round": "Round 3",
+              "track": "Okayama International Circuit, Jepang",
+              "date": "26 Oktober 2024",
+              "type": "Sprint Race",
+              "status": "Completed",
+              "server": "97 Assetto Corsa Server"
+            },
+            {
+              "round": "Round 4",
+              "track": "Circuit de Spa-Francorchamps, Belgia",
+              "date": "16 November 2024",
+              "type": "Sprint Race",
+              "status": "Completed",
+              "server": "97 Assetto Corsa Server"
+            },
+            {
+              "round": "Round 5",
+              "track": "Oulton Park, Inggris Raya",
+              "date": "30 November 2024",
+              "type": "Sprint Race",
+              "status": "Completed",
+              "server": "97 Assetto Corsa Server"
+            },
+            {
+              "round": "Round 6",
+              "track": "Watkins Glen International, Amerika Serikat",
+              "date": "14 Desember 2024",
+              "type": "Sprint Race",
+              "status": "Completed",
+              "server": "97 Assetto Corsa Server"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
