@@ -3,14 +3,14 @@ import Footer from "../components/Footer";
 import SectionTitle from "../components/SectionTitle";
 
 const sponsors = [
-  {
-    name: "Assetto Corsa",
-    logo: "/sponsors/Assetto-Corsa.png",
-  },
-  {
-    name: "Assetto Corsa Competizione",
-    logo: "/sponsors/ACC.png",
-  },
+  // {
+  //   name: "Assetto Corsa",
+  //   logo: "/sponsors/Assetto-Corsa.png",
+  // },
+  // {
+  //   name: "Assetto Corsa Competizione",
+  //   logo: "/sponsors/ACC.png",
+  // },
 ];
 
 const isSponsorSlider = sponsors.length > 4;
