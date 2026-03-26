@@ -2,6 +2,20 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import SectionTitle from "../components/SectionTitle";
 
+const sponsors = [
+  {
+    name: "Assetto Corsa",
+    logo: "/sponsors/Assetto-Corsa.png",
+  },
+  {
+    name: "Assetto Corsa Competizione",
+    logo: "/sponsors/ACC.png",
+  },
+];
+
+const isSponsorSlider = sponsors.length > 4;
+const sponsorItems = isSponsorSlider ? [...sponsors, ...sponsors] : sponsors;
+
 export default function HomePage() {
   return (
     <>
@@ -399,6 +413,40 @@ export default function HomePage() {
               <a href="#kegiatan" className="btn btn-outline-light-custom">
                 Lihat Jadwal Event
               </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="sponsors" className="sponsor-section pt-0">
+        <div className="container">
+          <SectionTitle
+            small="Partner & Sponsor"
+            title="Didukung oleh partner komunitas"
+            text="Didukung oleh partner yang berkontribusi dalam perkembangan dan keberlangsungan kompetisi komunitas."
+            center
+          />
+
+          <div className="sponsor-slider-wrap">
+            <div
+              className={`sponsor-slider-track ${
+                isSponsorSlider
+                  ? "sponsor-slider-animated"
+                  : "sponsor-slider-static"
+              }`}
+            >
+              {sponsorItems.map((sponsor, index) => (
+                <div className="sponsor-card" key={`${sponsor.name}-${index}`}>
+                  <div className="sponsor-logo-box">
+                    <img
+                      src={sponsor.logo}
+                      alt={sponsor.name}
+                      className="sponsor-logo"
+                    />
+                  </div>
+                  <div className="sponsor-name">{sponsor.name}</div>
+                </div>
+              ))}
             </div>
           </div>
         </div>
