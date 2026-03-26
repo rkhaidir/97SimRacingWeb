@@ -210,7 +210,7 @@ export default function HomePage() {
           <SectionTitle
             small="Championship Berlangsung"
             title="Dua seri utama 97 Sim Racing Community"
-            text="Landing page difokuskan untuk menampilkan dua championship aktif komunitas dengan identitas yang kuat, format kompetisi yang jelas, dan informasi yang mudah dipahami pengunjung."
+            text="Dua championship unggulan yang merepresentasikan level kompetisi tertinggi komunitas."
             center
           />
 
