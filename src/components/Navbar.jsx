@@ -29,7 +29,7 @@ export default function Navbar() {
             </li>
 
             <li className="nav-item">
-              <NavLink className="nav-link" to="/kegiatan">
+              <NavLink className="nav-link" to="/activity">
                 Activity
               </NavLink>
             </li>
