@@ -76,7 +76,7 @@ export default function SchedulePage() {
       <PageHero
         eyebrow="Schedule & Calendar"
         title="Jadwal Weekly Race & Special Event"
-        lead="genda lengkap komunitas dari weekly race hingga special event dalam tampilan yang jelas dan rapi."
+        lead="Agenda lengkap komunitas dari weekly race hingga special event dalam tampilan yang jelas dan rapi."
         actions={[
           <a key="calendar" href="#calendar" className="btn btn-brand">
             Buka Kalender
