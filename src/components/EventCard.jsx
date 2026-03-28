@@ -28,8 +28,10 @@ export default function EventCard({ event }) {
           <p className="mb-0">{event.description || ""}</p>
         </div>
         <div className="text-md-end">
-          <div className="fw-bold text-white">{event.day || "-"}</div>
-          <div className="muted-text">{event.time || "-"}</div>
+          <div className="fw-bold text-white">
+            {event.day || "-"}{" "}
+            <span className="muted-text"> - {event.time || "-"}</span>
+          </div>
         </div>
       </div>
 

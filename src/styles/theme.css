@@ -59,6 +59,28 @@ body {
   color: #fff !important;
 }
 
+.dropdown-menu-dark {
+  background: rgba(8, 17, 31, 0.95);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 0.9rem;
+  backdrop-filter: blur(12px);
+  padding: 0.5rem;
+  min-width: 220px;
+}
+
+.dropdown-menu-dark .dropdown-item {
+  color: #f8fafc;
+  border-radius: 0.7rem;
+  padding: 0.7rem 0.9rem;
+  font-weight: 500;
+}
+
+.dropdown-menu-dark .dropdown-item:hover,
+.dropdown-menu-dark .dropdown-item:focus {
+  background: rgba(255, 59, 48, 0.14);
+  color: #fff;
+}
+
 .hero,
 .page-hero {
   position: relative;

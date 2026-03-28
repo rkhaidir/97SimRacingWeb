@@ -76,7 +76,7 @@ export default function SchedulePage() {
       <PageHero
         eyebrow="Schedule & Calendar"
         title="Jadwal Weekly Race & Special Event"
-        lead="Halaman ini dirancang untuk menampilkan seluruh agenda komunitas secara rapi, mulai dari weekly race, practice session, hingga special event. Semua data dibaca dari file JSON agar mudah di-update tanpa mengubah struktur halaman."
+        lead="genda lengkap komunitas dari weekly race hingga special event dalam tampilan yang jelas dan rapi."
         actions={[
           <a key="calendar" href="#calendar" className="btn btn-brand">
             Buka Kalender
@@ -104,30 +104,6 @@ export default function SchedulePage() {
           </div>,
         ]}
       />
-
-      <section id="overview">
-        <div className="container">
-          <div className="row g-4 align-items-stretch">
-            <div className="col-lg-8">
-              <SectionTitle
-                small="Overview Schedule"
-                title="Satu halaman untuk seluruh agenda komunitas"
-                text="Berbeda dengan halaman championship, halaman ini fokus pada event komunitas harian dan musiman. Pengunjung bisa melihat weekly race reguler maupun special event dalam satu tampilan yang mudah dipindai."
-              />
-            </div>
-            <div className="col-lg-4">
-              <div className="highlight-card">
-                <h5 className="fw-bold mb-2">JSON Driven Schedule</h5>
-                <p className="mb-0">
-                  Tambah event baru cukup lewat file{" "}
-                  <strong>schedule-data.json</strong>. Frontend akan langsung
-                  merender event berdasarkan tahun dan kategori yang dipilih.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       <section id="filters">
         <div className="container">
@@ -169,7 +145,6 @@ export default function SchedulePage() {
                 >
                   <option value="all">Semua Event</option>
                   <option value="weekly-race">Weekly Race</option>
-                  <option value="practice-session">Practice Session</option>
                   <option value="special-event">Special Event</option>
                 </select>
               </div>
@@ -208,7 +183,6 @@ export default function SchedulePage() {
                 <div className="quick-meta mt-4">
                   <span>Total {filteredEvents.length}</span>
                   <span>Weekly {weeklyCount}</span>
-                  <span>Practice {practiceCount}</span>
                   <span>Special {specialCount}</span>
                 </div>
               </div>
@@ -252,7 +226,7 @@ export default function SchedulePage() {
             <SectionTitle
               small="Join The Grid"
               title="Lihat jadwal komunitas dan ikut event berikutnya"
-              text="Gunakan halaman ini untuk menampilkan weekly race, practice session, dan special event dalam format yang lebih rapi, mudah dikelola, dan konsisten dengan tema utama website."
+              text="Masuk ke grid, ikuti jadwal event, dan buktikan performamu di setiap race komunitas."
               center
             />
             <div className="d-flex justify-content-center gap-3 flex-wrap">
