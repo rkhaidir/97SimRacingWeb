@@ -32,23 +32,29 @@ export default function SchedulePage() {
   const allEvents = data?.seasons?.[selectedYear]?.events || [];
 
   const filteredEvents = useMemo(() => {
-    return allEvents.filter((event) => {
-      const matchesType = selectedType === "all" || event.type === selectedType;
-      const haystack = [
-        event.title,
-        event.track,
-        event.description,
-        event.month,
-        event.day,
-        event.time,
-      ]
-        .join(" ")
-        .toLowerCase();
+    return allEvents
+      .filter((event) => {
+        const matchesType =
+          selectedType === "all" || event.type === selectedType;
+        const haystack = [
+          event.title,
+          event.track,
+          event.description,
+          event.month,
+          event.day,
+          event.time,
+        ]
+          .join(" ")
+          .toLowerCase();
 
-      const matchesSearch =
-        !searchTerm || haystack.includes(searchTerm.toLowerCase());
-      return matchesType && matchesSearch;
-    });
+        const matchesSearch =
+          !searchTerm || haystack.includes(searchTerm.toLowerCase());
+        return matchesType && matchesSearch;
+      })
+      .sort(
+        (a, b) =>
+          new Date(a.startDateTime || 0) - new Date(b.startDateTime || 0),
+      );
   }, [allEvents, searchTerm, selectedType]);
 
   const grouped = useMemo(() => {

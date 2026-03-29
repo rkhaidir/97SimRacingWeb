@@ -1,3 +1,5 @@
+import { formatEventDateTime } from "../utils/datetime";
+
 function getTypeBadgeClass(type) {
   const map = {
     "weekly-race": "type-weekly",
@@ -17,6 +19,7 @@ function getTypeLabel(type) {
 }
 
 export default function EventCard({ event }) {
+  const localDateTime = formatEventDateTime(event.startDateTime);
   return (
     <div className="event-card">
       <div className="d-flex justify-content-between align-items-start gap-3 flex-wrap">
@@ -30,7 +33,10 @@ export default function EventCard({ event }) {
         <div className="text-md-end">
           <div className="fw-bold text-white">
             {event.day || "-"}{" "}
-            <span className="muted-text"> - {event.time || "-"}</span>
+            <span className="muted-text">
+              {" "}
+              - {localDateTime.time} ({localDateTime.timeZone})
+            </span>
           </div>
         </div>
       </div>
