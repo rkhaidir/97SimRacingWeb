@@ -64,7 +64,7 @@ export default function Navbar() {
                 <li>
                   <a
                     className="dropdown-item"
-                    href="#1htrophy"
+                    href="https://1htrophy.97simracing.my.id/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -74,7 +74,7 @@ export default function Navbar() {
                 <li>
                   <a
                     className="dropdown-item"
-                    href="#openwheeltrophy"
+                    href="https://openwheeltrophy.97simracing.my.id/"
                     target="_blank"
                     rel="noreferrer"
                   >
